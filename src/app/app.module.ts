@@ -7,7 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { CanvasComponent } from './canvas/canvas.component';
 import { LogosComponent } from './logos/logos.component';
 import { CustomizationComponent } from './customization/customization.component';
-import { LogoComponent } from "./logos/logo/logo.component";
+import { LogoComponent } from './logos/logo/logo.component';
+import { MaterialModule } from './material/material.module';
+import { ColorPickerModule } from 'ngx-color-picker';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LogoComponent } from "./logos/logo/logo.component";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    ColorPickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

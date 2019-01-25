@@ -1,3 +1,18 @@
-<p>
-  customization works!
-</p>
+<div class="customization">
+  <div class="customization-item">
+    <div class="customization-item-title">
+      Customize primary color
+    </div>
+    <div class="customization-item-picker">
+      <input readonly="readonly" [(colorPicker)]="primary" [style.background]="primary"/>
+    </div>
+  </div>
+  <div class="customization-item">
+    <div class="customization-item-title">
+      Customize secondary color
+    </div>
+    <div class="customization-item-picker">
+      <input readonly="readonly" [(colorPicker)]="secondary" [style.background]="secondary"/>
+    </div>
+  </div>
+</div>
