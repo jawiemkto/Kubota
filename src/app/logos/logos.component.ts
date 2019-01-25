@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogosComponent implements OnInit {
 
-  logos = ['1','srg1','444', {name: 'xD', logo: 'xDww'}];
+  logos = [
+    {"title": "bla", "logoName": "iconfinder_deer_3406417.svg"},
+    {"title": "blagla", "logoName": "iconfinder_sloth_3406421.svg"},
+    {"title": "blagladla", "logoName": "iconfinder_squirrel_3406420.svg"},
+  ];
 
   constructor() { }
 
