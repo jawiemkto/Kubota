@@ -15,7 +15,7 @@ export class LogosComponent implements OnInit {
     {"title": "blagladlaff", "logoName": "iconfinder_fox_3406441.svg"},
     {"title": "blagladlaff", "logoName": "iconfinder_meerkat_3406432.svg"},
   ];
-
+cb
   selectedFile: File;
   imagePreview: string;
 
