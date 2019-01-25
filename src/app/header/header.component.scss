@@ -1,7 +1,24 @@
 $kubota_logo: '/assets/kubotalogo.png';
+$flip-flop: '/assets/img/flipflop.svg';
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
 
 .logo {
+  width: 15%;
   height: 150px;
   background: url($kubota_logo) no-repeat center;
   background-size: 200px 70px;
+}
+
+.flip-flop {
+  width: 15%;
+  height: 150px;
+  background: url($flip-flop) no-repeat center;
+  background-size: 80% 80%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
 }
