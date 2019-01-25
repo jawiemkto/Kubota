@@ -16,9 +16,26 @@ export class LogosComponent implements OnInit {
     {"title": "blagladlaff", "logoName": "iconfinder_meerkat_3406432.svg"},
   ];
 
+  selectedFile: File;
+  imagePreview: string;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  onFileUpload(event) {
+    this.selectedFile = event.target.files[0];
+    const reader = new FileReader();
+    reader.onload = () => {
+      this.imagePreview = reader.result as string;
+    };
+    reader.readAsDataURL(this.selectedFile);
+  }
+  // OnUploadFile() {
+  //   //Upload file here send a binary data
+  //   this.http.post(‘yourdomain.com/file-upload’, this.selectedFile)
+  // .subscribe(…);
+  // }
 
 }

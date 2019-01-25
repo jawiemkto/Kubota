@@ -2,5 +2,11 @@
 <app-logo *ngFor="let logo of logos" [logoItem]="logo"></app-logo>
   <div>
     addYourCustom
+    <input style="display: none" type="file" (change)="onFileUpload($event)" #selectFile>
+    <button (click)="selectFile.click()">Select File</button>
+    <!--<button (click)="OnUploadFile()">Upload</button>-->
+    <div class="image-preview">
+      <img class="image" [src]="imagePreview">
+    </div>
   </div>
 </div>
