@@ -5,7 +5,7 @@
   height: 100vh;
   .header {
     height: $header-height;
-    background-color: purple;
+    background-color: lightgray;
   }
   .main {
     height: calc(100% - #{$header-height});

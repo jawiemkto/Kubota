@@ -1,0 +1,7 @@
+$kubota_logo: '/assets/kubotalogo.png';
+
+.logo {
+  height: 150px;
+  background: url($kubota_logo) no-repeat center;
+  background-size: 200px 70px;
+}
