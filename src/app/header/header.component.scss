@@ -1,4 +1,4 @@
-$kubota_logo: '/assets/kubotalogo.png';
+$kubota_logo: '/assets/customtransparentlogo.png';
 $flip-flop-green: '/assets/img/flipflop.svg';
 $flip-flop-red: '/assets/img/flipflopred.svg';
 $flip-flop-blue: '/assets/img/flipflopblue.svg';
@@ -16,7 +16,7 @@ $flip-flop-purple: '/assets/img/flipfloppurple.svg';
   width: 15%;
   height: 150px;
   background: url($kubota_logo) no-repeat center;
-  background-size: 60% 60%;
+  background-size: 100%;
 }
 
 .flip-flop {
