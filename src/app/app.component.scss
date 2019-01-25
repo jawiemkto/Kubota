@@ -5,20 +5,25 @@
   height: 100vh;
   .header {
     height: $header-height;
+    background-color: purple;
   }
   .main {
     height: calc(100% - #{$header-height});
+    display: flex;
     &-logos {
       height: 100%;
       width: 20%;
+      background-color: pink;
     }
     &-canvas {
       height: 100%;
       width: 60%;
+      background-color: yellow;
     }
     &-customization {
       height: 100%;
       width: 20%;
+      background-color: red;
     }
   }
 }
