@@ -7,13 +7,16 @@ import { HeaderComponent } from './header/header.component';
 import { CanvasComponent } from './canvas/canvas.component';
 import { LogosComponent } from './logos/logos.component';
 import { CustomizationComponent } from './customization/customization.component';
+import { LogoComponent } from "./logos/logo/logo.component";
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CanvasComponent,
     LogosComponent,
-    CustomizationComponent
+    CustomizationComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
