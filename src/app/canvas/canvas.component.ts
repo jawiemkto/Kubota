@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CanvasComponent implements OnInit {
 
+  primary: '#dddddd';
+  secondary: '#ba1f1f';
+
   constructor() { }
 
   ngOnInit() {

@@ -1,0 +1,27 @@
+@import 'variables';
+
+.canvas-container {
+  display: flex;
+}
+
+.flip-flop {
+  width: 80%;
+}
+
+.customization {
+  width: 20%;
+  &-item {
+    padding: 2rem;
+    border: 1px solid $primary-font-color;
+    &-title {
+      color: $primary-font-color;
+      padding-bottom: .5rem;
+    }
+    &-picker input {
+      width: 1rem;
+      border-radius: 2rem;
+      border: 1px solid $primary-font-color;
+      cursor: pointer;
+    }
+  }
+}
