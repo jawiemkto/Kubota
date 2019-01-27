@@ -1,0 +1,53 @@
+$kubota_logo: '/assets/customtransparentlogo.png';
+$flip-flop-green: '/assets/img/flipflop.svg';
+$flip-flop-red: '/assets/img/flipflopred.svg';
+$flip-flop-blue: '/assets/img/flipflopblue.svg';
+$flip-flop-black: '/assets/img/flipflopblack.svg';
+$flip-flop-orange: '/assets/img/flipfloporange.svg';
+$flip-flop-purple: '/assets/img/flipfloppurple.svg';
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 15%;
+  height: 150px;
+  background: url($kubota_logo) no-repeat center;
+  background-size: 100%;
+}
+
+.flip-flop {
+  width: 15%;
+  height: 150px;
+  background-size: 80% 80%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+}
+
+.green {
+  background: url($flip-flop-green) no-repeat center;
+}
+
+.red {
+  background: url($flip-flop-red) no-repeat center;
+}
+
+.blue {
+  background: url($flip-flop-blue) no-repeat center;
+}
+
+.black {
+  background: url($flip-flop-black) no-repeat center;
+}
+
+.orange {
+  background: url($flip-flop-orange) no-repeat center;
+}
+
+.purple {
+  background: url($flip-flop-purple) no-repeat center;
+}

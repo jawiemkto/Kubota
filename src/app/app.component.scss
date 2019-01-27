@@ -1,0 +1,22 @@
+@import 'variables';
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  .header {
+    height: $header-height;
+    background-image: linear-gradient(to bottom right, #a0e1ff, #41aeff);
+  }
+  .main {
+    height: calc(100% - #{$header-height});
+    display: flex;
+    &-logos {
+      height: 100%;
+      width: 20%;
+    }
+    &-canvas {
+      height: 100%;
+      width: 80%;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@import 'variables';
+
+* {
+  outline: none;
+}
+
+.cls-1 {
+  isolation: isolate;
+}
+
+.cls-10, .cls-2, .cls-6, .cls-8 {
+  mix-blend-mode: multiply;
+}
+
+.cls-3 {
+  fill: #815dd1;
+}
+
+.cls-4 {
+  fill: #82ce29;
+}
+
+.cls-5 {
+  fill: #4d809e;
+}
+
+.cls-6 {
+  opacity: 0.41;
+}
+
+.cls-7 {
+  fill: #606060;
+}
+
+.cls-8 {
+  opacity: 0.42;
+}
+
+.cls-9 {
+  fill: #846530;
+}
+
+.cls-10 {
+  opacity: 0.64;
+}
+
+.cls-11, .cls-12 {
+  fill: none;
+  stroke: #15234b;
+  stroke-linecap: round;
+  stroke-miterlimit: 8;
+  stroke-width: 3px;
+}
+
+.cls-11 {
+  stroke-dasharray: 5.03 5.03;
+}
+
+.cls-12 {
+  stroke-dasharray: 4.96 4.96;
+}
+
+.cls-13 {
+  fill: #fff;
+}
+
+.cls-14 {
+  opacity: 0.7;
+}
