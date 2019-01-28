@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LogoService } from '../services/logoService.service';
 
 @Component({
   selector: 'app-canvas',
@@ -17,9 +18,14 @@ export class CanvasComponent implements OnInit {
   innerSoul: '#1A61E2';
   shadow: '#343434';
 
-  constructor() { }
+  activeLogo: any;
+
+  constructor(private logoService: LogoService) { }
 
   ngOnInit() {
+    this.logoService.activeLogoStream().subscribe((logo) => {
+      this.activeLogo = logo;
+    });
   }
 
 }

@@ -10,6 +10,7 @@ import { LogoComponent } from './logos/logo/logo.component';
 import { MaterialModule } from './material/material.module';
 import { ColorPickerModule } from 'ngx-color-picker';
 import { FormsModule } from '@angular/forms';
+import { LogoService } from './services/logoService.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { FormsModule } from '@angular/forms';
     ColorPickerModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LogoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,6 +2,10 @@
   background-color: darksalmon;
   border: 2px solid lawngreen;
   text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #dddddd;
+  }
   img {
     height: 50px;
   }

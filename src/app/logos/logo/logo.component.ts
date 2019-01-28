@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import { LogoService } from '../../services/logoService.service';
 
 @Component({
   selector: 'app-logo',
@@ -9,10 +10,14 @@ export class LogoComponent implements OnInit {
 
   @Input() logoItem: any;
 
-  constructor() { }
+  constructor(private logoService: LogoService) { }
 
   ngOnInit() {
 
+  }
+
+  selectLogo(): void {
+    this.logoService.changeLogo(this.logoItem);
   }
 
 }
